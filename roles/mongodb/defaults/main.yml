@@ -1,0 +1,4 @@
+---
+
+container_name: "mongo:4.0.26-xenial"
+mongodb_port: 27017
