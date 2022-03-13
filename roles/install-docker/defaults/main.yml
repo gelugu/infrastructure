@@ -1,0 +1,8 @@
+docker_prerequisite_packages:
+  - yum-utils
+  - device-mapper-persistent-data
+  - lvm2
+
+docker_packages:
+  - docker-ce
+  - python-docker
