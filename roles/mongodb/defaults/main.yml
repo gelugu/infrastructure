@@ -1,4 +1,5 @@
 ---
 
 container_name: "mongo:4.0.26-xenial"
+data_dir: "/app/db-data"
 mongodb_port: 27017

@@ -8,3 +8,5 @@
     restart: yes
     ports:
       - "{{ mongodb_port }}:27017"
+    volumes:
+      - "{{ data_dir }}:/data/db"
